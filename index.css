@@ -105,6 +105,7 @@ header-ul{
 .div-height{
     background: #09124242;
     height: 78px;
+    margin-bottom: 176px;
 }
 .main-menu{
     width: 1200px;
@@ -138,4 +139,39 @@ header-ul{
 .request-button{
     padding: 28px 52px;
     font-size: 16px;
+}
+.main-text{
+    width: 1200px;
+    margin: 0 auto;
+}
+.text-header{
+    display: inline-flex;
+    align-items: center;
+    background-color: #041C3780;
+    
+}
+.text-header > p {
+    font-size: 14px;
+    color: white;
+    padding: 3px 9px;
+    
+}
+.text-middle{
+    font-size: 60px;
+    color: white;
+}
+.main-wrap{
+    width: 571px;
+}
+.text-submiddle{
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.text-button > button{
+    background-image: url("images/Background.png");
+    padding: 19px 47px;
+    width: 194px;
+    height: 60px;
 }
