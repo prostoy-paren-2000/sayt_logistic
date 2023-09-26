@@ -52,6 +52,9 @@ header{
     background-color: #091242;
     height: 160px;
 }
+menu{
+    font-family: 'Rubik', sans-serif;
+}
 .header-section{
     width: 1200px;
     margin: 0 auto;
@@ -94,4 +97,45 @@ header-ul{
 }
 .clock{
     width: 145px;
+}
+.main-section{
+    background-image: url("images/Photo.png");
+    height: 875px;
+}
+.div-height{
+    background: #09124242;
+    height: 78px;
+}
+.main-menu{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu-ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 16px;
+    color: white;
+    line-height: 78px;
+    
+}
+.menu-icon{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    gap: 24px;
+}
+.div-button{
+    
+}
+.request-button{
+    padding: 28px 52px;
+    font-size: 16px;
 }
